@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User launches Flipkart account",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3761000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches the Flipkart Login  \"https://www.flipkart.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.flipkart.com\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_launches_the_Flipkart_Login(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user validate the launched application  \"https://www.flipkart.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.flipkart.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_validate_the_launched_application(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-02T06:37:08.454Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14188000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Flipkart.Hooks.HooksClass.browserlaunch()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User clicks on Fashion module",
+        "description": "",
+        "id": "create-the-flipkart-account;user-clicks-on-fashion-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 317000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Fashion",
+            "match": {
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_click_on_Fashion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3594000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects the Men Top wear",
+            "match": {
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_selects_the_Men_Top_wear()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1172000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User validate the top wear",
+            "match": {
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_validate_the_top_wear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User launches Flipkart account",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3903000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches the Flipkart Login  \"https://www.flipkart.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.flipkart.com\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_launches_the_Flipkart_Login(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user validate the launched application  \"https://www.flipkart.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.flipkart.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_validate_the_launched_application(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-02T06:37:32.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8141000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Flipkart.Hooks.HooksClass.browserlaunch()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test the Functionality of Search field",
+        "description": "",
+        "id": "create-the-flipkart-account;test-the-functionality-of-search-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4171000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User searches for an item in search field",
+            "match": {
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_searches_for_an_item_in_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 562000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User selects the Mobiles",
+            "match": {
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_selects_the_Mobiles()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User validates the mobile prices",
+            "match": {
+              "location": "com.Flipkart.stepdefinition.CreateFlipkartaccount.user_validates_the_mobile_prices()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create the Flipkart Account",
+    "description": "",
+    "id": "create-the-flipkart-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Flipkart.feature",
+    "tags": []
+  }
+]
